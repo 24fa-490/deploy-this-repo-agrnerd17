@@ -14,6 +14,7 @@
 
 <p>Notice that tab order is set correctly with the index into the container object.</p>
 
+<!-- Table with headers -->
 <table>
 	<thead>
 		<tr>
@@ -36,27 +37,19 @@
 	</tbody>
 </table>
 
-<p>Last container clicked: none</p>
+<!-- Output for debugging -->
+<p>Last container clicked: {lastContainerClicked || 'none'}</p>
 
 <style>
 	table {
 		width: 100%;
 		border-collapse: collapse;
+		margin-bottom: 20px;
 	}
-
 	th,
 	td {
-		padding: 8px;
+		padding: 10px;
+		border: 1px solid black;
 		text-align: left;
-		border-bottom: 1px solid black;
-	}
-
-	tr:hover {
-		background-color: #f5f5f5;
-		cursor: pointer;
-	}
-
-	tr:focus {
-		outline: 2px solid blue;
 	}
 </style>
