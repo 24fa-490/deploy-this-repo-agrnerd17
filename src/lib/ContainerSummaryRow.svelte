@@ -12,13 +12,16 @@
 <style>
 	.row {
 		display: flex;
-		background-color: #eee;
+		background-color: #f9f9f9;
+		border: 1px solid #ddd;
+		padding: 5px;
+		margin-bottom: 5px;
 	}
 	.id,
 	.shipname,
 	.size,
 	.date {
-		margin: 5px;
+		margin: 0 10px;
 	}
 	.id {
 		font-weight: bold;
@@ -33,7 +36,7 @@
 		text-align: center;
 	}
 	.shipname {
-		flex: 1;
-		color: #999;
+		flex: 2;
+		color: #555;
 	}
 </style>
