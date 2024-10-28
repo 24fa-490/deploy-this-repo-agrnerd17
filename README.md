@@ -26,6 +26,6 @@
 
 # Where am I deployed?
 
-<enter your URL here>
+<https://deploy-this-repo-agrnerd17-i4diilj11-amelie-gomezs-projects.vercel.app/>
 
 
