@@ -27,8 +27,8 @@
 		{#each containers as container, ix}
 			<tr
 				tabindex={ix + 1}
-				on:keydown={(e) => e.key === 'Enter' && onContainerClicked(container, e)}
-				on:click={(e) => onContainerClicked(container, e)}
+				on:keydown={(e) => e.key === 'Enter' && onContainerClicked(container)}
+				on:click={() => onContainerClicked(container)}
 			>
 				<ContainerSummaryRow {container} />
 			</tr>
