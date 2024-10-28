@@ -9,13 +9,6 @@
 	<div class="size">{container.containerSize}</div>
 </div>
 
-<tr>
-	<td>{container.containerNumber}</td>
-	<td>{container.nameOfShip}</td>
-	<td>{container.containerSize}</td>
-	<td>{container.dateContainerShipped}</td>
-</tr>
-
 <style>
 	.row {
 		display: flex;
